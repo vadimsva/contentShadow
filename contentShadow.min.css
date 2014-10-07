@@ -1,0 +1,6 @@
+/*
+contentShadow - 1.00 [07.10.14]
+Author: vadimsva
+Github: https://github.com/vadimsva/contentShadow
+*/
+.contentShadowContainer{overflow:auto;position:relative}.contentShadowBody{height:100%;overflow:auto;box-sizing:border-box}.contentShadowContainer.contentShadowTop:before,.contentShadowContainer.contentShadowBottom:after{content:'';position:absolute;width:100%;height:5px;background:rgba(100,100,100,0.2);z-index:2;right:0}body.contentShadowContainer.contentShadowTop:before,body.contentShadowContainer.contentShadowBottom:after{position:fixed}.contentShadowContainer.contentShadowTop:before{top:0;border-top:1px solid #B7BFCA}.contentShadowContainer.contentShadowBottom:after{bottom:0;border-bottom:1px solid #B7BFCA}
